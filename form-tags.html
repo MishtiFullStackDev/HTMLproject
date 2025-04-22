@@ -1,18 +1,76 @@
-<!DOCTYPE html>
 <html>
 
-<head>
-    <title>form tags</title>
-</head>
-
 <body>
-    <a title="select" target="_blank">
-        <h1>form tag</h1>
-    </a>
     <form>
-        <label>Name</label>
-        <input type="text" />
-        <label>mobile No</label>
-        <input>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <input type="password">
+            <label>time</label>
+            <input type="time" name="time one" id="time one">
+            <input type="time two" id="time two">
+            <br />
+            <br />
+            <LABEL>Gender</LABEL>
+            <br />
+            <input type="radio" name="gender" value="male"><label>male</label>
+            <input type="radio" name="gender" value="female"><label>female</label>
+        </fieldset>
+        <br />
+        <br />
+        <hr />
+        <label>2+2=?</label>
+        <br />
+        <input type="radio" name="mcq" value="mcq"><label>1</label>
+
+        <input type="radio" name="mcq" value="mcq"><label>2</label>
+
+        <input type="radio" name="mcq" value="mcq"><label>4</label>
+        <br />
+        <br />
+        <hr />
+        <label>select devices</label><br />
+        <input type="checkbox" name="mobile" value="mobile"><label>mobile</label>
+        <input type="checkbox" name="Laptop" value="Laptop"><label>Laptop</label>
+        <input type="checkbox" name="pc" value="pc"><label>pc</label>
+        <br />
+        <br />
+        <label>which Sports Do You like the most</label>
+        <br />
+
+        <input type="radio" name="cricket" value="cricket"><label>cricket</label>
+        <br />
+        <input type="radio" name="football" value="football"><label>football</label>
+        <br />
+        <input type="radio" name="badminton" value="badminton"><label>badminton</label>
+        <hr />
+        <label>URL</label>
+        <input type="URL">
+        <hr />
+        <label> upload file</label>
+        <input type="file">
+        <hr />
+        <hr />
+        <label>age</label>
+        <input type="number">
+        <br />
+        <br />
+        <label>state:</label>
+        <select>
+            <option>none</option>
+            <option>maharashtra</option>
+
+
+            <label>enter your percentage</label>
+            <input type="range">
+            <fieldset>
+            </fieldset>
+            <legend>Other details</legend>
+            <label>favourite colour</label>
+            <input type="color">    
+
+
+            <br />
+            <br />
+</body>
 
 </html>
