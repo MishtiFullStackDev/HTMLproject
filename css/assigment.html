@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input & Output</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: #9db3d24d;
+
+        }
+
+        /* container css */
+        .container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+
+        }
+
+        /* header css */
+        .header {
+            height: 150px;
+            width: 80%;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            padding-bottom: 40px;
+            color: rgba(184, 53, 105, 0.425);
+
+        }
+
+        /* section css start */
+        section {
+            text-align: center;
+
+        }
+
+        p {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 25px;
+
+
+        }
+
+        /* section css start */
+
+        /* languages css start */
+        .languages {
+            height: 100px;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            margin-top: 30px;
+
+
+        }
+
+        button {
+            height: 80px;
+            width: 150px;
+            border-radius: 20px;
+            font-size: 25px;
+
+
+        }
+
+        /* languages css end*/
+
+        /* card css  */
+        .card {
+            height: auto;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+            margin-top: 30px;
+        }
+
+        .one {
+            height: 650px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+
+
+        }
+
+        .input {
+            height: 550px;
+            width: 35%;
+            background-color: rgba(145, 185, 165, 0.288);
+            border: 1px solid rgba(0, 0, 0, 0.443);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .output {
+            height: 550px;
+            width: 35%;
+            background-color: rgba(34, 17, 27, 0.632);
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        h1 {
+            color: rgba(191, 153, 39, 0.545);
+            font-size: 40px;
+        }
+
+        .heading {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .two {
+            font-size: 25px;
+            background-color:white;
+            width:400px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- start container -->
+    <div class="container">
+
+        <!-- header start -->
+        <div class="header">
+            <section>
+                <p>Input & Output in Different  Programming Languages</p>
+            
+            </section>
+        </div>
+        <!-- header end-->
+
+        <!-- languages start -->
+
+        <div class="languages">
+            <button> <a href="#javascript"><img src="../assets/image/icons8-javascript-logo-50.png" alt=""></a></button>
+            <button><a href="#java"><img src="../assets/image/icons8-java-50.png" alt=""></a></button>
+            <button> <a href="#python"><img src="../assets/image/icons8-python-30.png" alt=""></a></button>
+            <button> <a href="#c"><img src="../assets/image/icons8-c-50.png" alt=""></a></button>
+        </div>
+        <!-- languages end -->
+        <!-- card  -->
+        <div class="card">
+            <!-- javascript card open  -->
+            <h1>Javascript</h1>
+            <div class="one" id="javascript">
+                <div class="input">
+                    <h2 class="heading">Input</h2>
+                    <p class="two">
+                        
+                        <br>
+                        let input = prompt("Enter a number:");
+                        <br>
+                        alert("Entered value is" + input);
+                        <br>
+                        <br>
+                        <br>
+
+                        console.log("Hello Javascript");
+
+                    </p>
+                </div>
+                <div class="output">
+                    <h2 class="heading">Output </h2>
+                    <p class="two">  <br>
+                        Enter a number ..... <br>
+                        and then click on OK
+                        <br>
+                        Entered value is ......
+                        <br>
+                        <br>
+                        <br>
+                        Hello Javascript
+                    </p>
+                </div>
+            </div>
+            <!-- javascript card close  -->
+
+            <!-- java card open  -->
+            <h1>Java</h1>
+            <div class="one" id="java">
+
+                <div class="input">
+                    <h2 class="heading">Input</h2>
+                    <p class="two">
+                        System.out.println("Name:");
+                        <br>
+                        String name = input.nextLine();
+                        <br>
+                        System.out.println("Age:");
+                        <br>
+                        int age = input.nextInt();
+                        <br>
+                        System.out.println("Hello" +name);
+                        <br>
+                        System.out.println("My age is:" +age);
+                        <br>
+                        String name = "Mishti ";
+                        <br>
+                        int age = 21;
+                        <br>
+                        System.out.println("Hello" + name );
+                        <br>
+                        System.out.println("i am" + age +"years old" );
+
+
+                    </p>
+                </div>
+                <div class="output">
+                    <h2 class="heading">Output</h2>
+                    <p class="two">
+                        Name:Mishti
+                        <br>
+                        Age:21
+                        <br>
+                        Hello Mishti
+                        <br>
+                        My age is 21 
+                        <br>
+                        Hello Mishti
+                        <br>
+                        i am 21 years old
+                    </p>
+
+                </div>
+            </div>
+            <!-- java card close  -->
+
+            <!-- python card open  -->
+            <h1>Python</h1>
+            <div class="one" id="python">
+                <div class="input">
+                    <h2 class="heading">Input</h2>
+                    <p class="two">
+                        <br>
+                        name="Mishti Naskar"
+                        <br>
+                        print(f"Hello ,{name}")
+                        <br>
+                       
+                        number=input("Enter a number:")
+                        <br>
+                        print(" The Entered number is",number)
+                        <br>
+                        <br>
+                       
+                    </p>
+
+                </div>
+                <div class="output">
+                    <h2 class="heading">Output</h2>
+                    <p class="two">
+                        <br>
+                        Hello , Mishti Naskar
+                        <br>
+                        Enter a number: 70
+                        <br>
+                        The Entered number is 70
+                        <br>
+                       
+                        <br>
+                     
+                    </p>
+
+                </div>
+            </div>
+            <!-- python card close  -->
+
+            <!-- c language card open -->
+            <h1>C</h1>
+            <div class="one" id="c">
+
+                <div class="input">
+                    <h2 class="heading">Input</h2>
+                    <p class="two">
+                        int a;
+                        printf("enter value of a:");
+                        scanf("%d",&a);
+                        <br>
+                        int b;
+                        <br>
+                        printf("enter value of b:");
+                        <br>
+                        scanf("%d",&b);
+                        <br>
+                        bool result=a>b;
+                        <br>
+                        printf("result is:%d",result);
+                        <br>
+                        char name []="Mishti";
+                        <br>
+                        int age=21;
+                        <br>
+                        printf("Name:%s\n",name);
+
+                    </p>
+                </div>
+                <div class="output">
+                    <h2 class="heading">Output</h2>
+
+                    <p class="two">
+
+                        enter value of a:50
+                        <br>
+                        enter value of b:60
+                        <br>
+                        result is:0
+                       
+                        <br>
+                        Name:Mishti 
+                        <br>
+
+                    </p>
+
+                </div>
+            </div>
+            <!-- c language card close -->
+
+        </div>
+        <!-- card end -->
+    </div>
+    <!-- end container -->
+</body>
+
+</html>
